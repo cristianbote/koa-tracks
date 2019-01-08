@@ -1,3 +1,6 @@
+/**
+ * Dummy function to emulate the next function
+ */
 const emulateNext = () => Promise.resolve();
 
 /**
