@@ -1,7 +1,6 @@
 import test from "ava";
 import tracks from "../index";
 
-// Helper for sleep
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 test("tracks", async t => {
