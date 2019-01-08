@@ -1,0 +1,39 @@
+{
+  "name": "koa-tracks",
+  "version": "0.1.0",
+  "description": "Koa middleware that runs multiple middlewares at the same time - in parallel. Just like people are running tracks... in parallel.",
+  "repository": "https://github.com/GoogleChromeLabs/quicklink.git",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "test.js"
+  ],
+  "scripts": {
+    "test": "nyc --reporter=lcov --reporter=text ava",
+    "sandbox": "node sandbox/server.js"
+  },
+  "keywords": [
+    "koajs",
+    "koa",
+    "middleware",
+    "parallel",
+    "koa-tracks",
+    "tracks"
+  ],
+  "author": "Cristian Bote <botecristian@yahoo.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^1.0.1",
+    "koa": "^2.6.2",
+    "nyc": "^13.1.0"
+  },
+  "ava": {
+    "files": [
+      "./tests/*"
+    ],
+    "sources": [
+      "./index.js"
+    ]
+  }
+}
