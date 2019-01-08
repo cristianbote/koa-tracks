@@ -1,6 +1,10 @@
 koa-tracks
 ===
-Koa middleware that runs multiple middlewares at the same time - in parallel. Just like people are running tracks... in parallel.
+Koa middleware that runs multiple middleware at the same time - in parallel. Just like people are running tracks... in parallel.
+
+[![npm version](https://badge.fury.io/js/koa-tracks.svg?bust)](https://badge.fury.io/js/koa-tracks)
+[![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/cristianbote/koa-tracks.svg?maxAge=2592000)](https://codecov.io/github/cristianbote/koa-tracks?branch=master)
+[![Build Status](https://travis-ci.org/cristianbote/koa-tracks.svg?branch=master)](https://travis-ci.org/cristianbote/koa-tracks)
 
 # Install
 ```sh
