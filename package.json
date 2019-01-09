@@ -1,8 +1,8 @@
 {
   "name": "koa-tracks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Koa middleware that runs multiple middlewares at the same time - in parallel. Just like people are running tracks... in parallel.",
-  "repository": "https://github.com/GoogleChromeLabs/quicklink.git",
+  "repository": "https://github.com/cristianbote/koa-tracks",
   "main": "index.js",
   "files": [
     "index.js",
